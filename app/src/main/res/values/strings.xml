@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">DroidPractice1</string>
-    <string name="article_title">Статья</string>
+    <string name="app_name">Новости УрФУ</string>
+    <string name="article_title">Новости</string>
+    <string name="article_subtitle">просмотр актуальных новостей</string>
+    <string name="second_article_title">Маленькие шаги в будущее</string>
+    <string name="second_article_date">21.12.25</string>
+    <string name="share_article">Поделиться статьёй</string>
+    <string name="open_second_article">Открыть другую статью</string>
+    <string name="read_article">Прочитано</string>
+    <string name="back_to_news">Вернуться к новостям</string>
 </resources>
