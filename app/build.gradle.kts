@@ -6,6 +6,7 @@ plugins {
 android {
     namespace = "ru.urfu.droidpractice1"
     compileSdk = 34
+    buildToolsVersion = "36.0.0"
 
     defaultConfig {
         applicationId = "ru.urfu.droidpractice1"
