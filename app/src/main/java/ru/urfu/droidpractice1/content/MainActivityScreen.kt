@@ -218,13 +218,13 @@ private fun NewsCard(article: NewsArticle, isRead: Boolean, onClick: () -> Unit)
                     modifier = Modifier.fillMaxWidth().height(160.dp).clip(RoundedCornerShape(topStart = 18.dp, topEnd = 18.dp)),
                     contentScale = ContentScale.Crop,
                 )
-                Column(
+                Text(
+                    article.title,
+                    color = Color.White,
+                    fontWeight = FontWeight.Medium,
                     modifier = Modifier.align(Alignment.BottomStart).fillMaxWidth()
                         .background(Color.Black.copy(alpha = 0.52f)).padding(horizontal = 14.dp, vertical = 9.dp),
-                ) {
-                    Text(article.title, color = Color.White, fontWeight = FontWeight.Medium)
-                    Text(article.date, color = Color.White.copy(alpha = 0.82f), fontSize = 12.sp)
-                }
+                )
             }
             Column(modifier = Modifier.padding(14.dp)) {
                 Text(
